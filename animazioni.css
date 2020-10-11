@@ -1,0 +1,102 @@
+/* esercizio 1 */
+.ex-1-square:hover{
+  background: red;
+  transition: ease 5s;
+}
+
+/* esercizio 2 */
+.ex-2-square:active{
+  width: 100%;
+  transition: ease 3s;
+}
+
+/* esercizio 3 */
+.ex-3-square:hover{
+  border-radius: 50%;
+  transition: ease 5s;
+}
+
+
+/* esercizio 4 */
+.ex-4-square:hover{
+  opacity: 0%;
+  transition: ease 5s;
+}
+
+/* esercizio 5 */
+.ex-5-square:hover{
+  width: 100px;
+  height: 100px;
+
+}
+
+/* esercizio 5 */
+.ex-5-square:active{
+  height: 10px;
+  width: 10px;
+
+}
+
+/* esercizio 6 */
+.ex-6-img:hover{
+  filter: grayscale();
+}
+
+/* esercizio 7 */
+.ex-7-img:hover{
+  filter: grayscale();
+  filter: sepia();
+  transition: ease 5s;
+}
+
+/* esercizio 8 */
+.ex-8-img:hover{
+  filter: grayscale();
+  filter: sepia();
+  border-radius: 30%;
+  transition: ease 5s;
+}
+
+/* esercizio 9 */
+.ex-9-img:hover{
+  filter: grayscale();
+  filter: sepia();
+  border-radius: 30%;
+  width: 50%;
+  transition: ease 5s;
+}
+
+/* esercizio 10 */
+.ex-10-icon{
+  animation: spin-animation 0.5s infinite;
+  display: inline-block;
+}
+
+@keyframes spin-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+/* esercizio 11 */
+.ex-11-icon:hover{
+  animation: spin-animation 0.5s infinite;
+  display: inline-block;
+}
+
+@keyframes spin-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+
+
+}
